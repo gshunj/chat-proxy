@@ -1,10 +1,10 @@
 {
   "rewrites": [
     
-    { "source": "/proxy/:match/:url*", "destination": "https://:api.openai.com/:url*" },
-    { "source": "/proxy/:match/:url*/", "destination": "https://:api.openai.com/:url*/" },
-    { "source": "/httpproxy/:match/:url*", "destination": "http://:api.openai.com/:url*" },
-    { "source": "/httpproxy/:match/:url*/", "destination": "http://:api.openai.com/:url*/" }
+    { "source": "/proxy/:match/:url*", "destination": "https://api.openai.com/:url*" },
+    { "source": "/proxy/:match/:url*/", "destination": "https://api.openai.com/:url*/" },
+    { "source": "/httpproxy/:match/:url*", "destination": "http://api.openai.com/:url*" },
+    { "source": "/httpproxy/:match/:url*/", "destination": "http://api.openai.com/:url*/" }
   ]
   
 }
